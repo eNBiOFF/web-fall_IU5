@@ -100,8 +100,8 @@ def main():
     print(res_12)
 
     print('\nЗадание В3')
-    res_13 = sorted(many_to_many, key=itemgetter(2));
-    print(res_13);
+    res_13 = sorted(many_to_many, key=itemgetter(2))
+    print(res_13)
 
 
 if __name__ == '__main__':
