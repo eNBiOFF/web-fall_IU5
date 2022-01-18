@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <div>
+        музыканты:
+        {% for value in data %}
+            <div>
+            <span>{{ value.name }} | имя оркестра: {{ value.id_orkestry.name }} | </span>
+            <span>{{ value.role }}</span>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>
